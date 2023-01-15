@@ -1,8 +1,8 @@
 # Web Engineering OEL
 
-## SUbmitted to
+## Submitted to
 Ma'am Laraib Zainab
 
-##Submitted by
-Hassan Ahmed Khan
-Ammar Ahmed
+## Submitted by
+Hassan Ahmed Khan and
+Ammar Ahmed from BESE 26-C
