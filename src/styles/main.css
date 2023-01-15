@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    color: #FEAE02;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+
+}
+
+input{
+    outline: 0;
+    border:none;
+    border-bottom:1px solid #FEAE02;
+    padding: 0.5rem 0;
+    width: 15rem;
+    font-size: 1rem;
+    background: none;
+    color: #F1E2A0;
+}
+
+.edit-input{
+    width: 10rem;
+}
+
+
+
+input:focus{
+    outline: 0;
+}
+
+button{
+    font-size: 1rem;
+    height: 2rem;
+    background-color: #F1E2A022;
+    margin-top: 1rem;
+    border: 1px solid #FEAE02;
+    color: #FEAE02;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #F1E2A032;
+
+}
+
+.App{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: #200C25;
+    color: #F1E2A0;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.heading{
+    margin: 2rem 0;
+}
+
+#input-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.input-button{
+    margin:0.5rem 0 0 0;
+}
+
+#list-section{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+#list-section>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-heading{
+    color: #FEAE02;
+}
+
+.current, .finished{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item{
+    padding: 0rem 1rem;
+    border-left: 2px solid #FEAE02;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+
+}
+
+.tag{
+    font-size: 0.8rem;
+    margin: 0.2rem 0 0.8rem 0;
+}
+
+.actions{
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
